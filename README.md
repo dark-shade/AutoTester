@@ -36,7 +36,7 @@ Junit and other dependencies will be automatically added using gradle and sbt.
 # Testing of application
 Following monitoring tools were used to test the application [Tools list](https://docs.oracle.com/javase/8/docs/technotes/guides/troubleshoot/tooldescr025.html) 
 
-#####JConsole
+###JConsole
 I use JConsole to monitor performance and resource consumption of java applications that are running.
 
 Screenshots of JConsole output for this application:
@@ -51,7 +51,7 @@ Screenshots of JConsole output for this application:
 
 ![picture](screenshots/jconsole5.png)
 
-#####VisualVM
+###VisualVM
 I use VisualVM to profile the performance and resource consumption of the java application.
 
 Screenshots of VisualVM output for this application:
@@ -64,14 +64,14 @@ Screenshots of VisualVM output for this application:
 
 ![picture](screenshots/VisualVM4.png)
 
-#####VisualGC
+###VisualGC
 I use VisualGC to collect and graphically display garbage collection, class loader, and HotSpot compiler performance data.
 
 Screenshots of VisualGC output for this application:
 
 ![picture](screenshots/VisualGC1.png)
 
-#####Java Mission Control
+###Java Mission Control
 I use Java Mission Control to collect and analyse detailed low level information about how the Java Virtual Machine (JVM) and the Java application are behaving.
 
 Screenshots of Java Mission Control output for this application:
@@ -80,7 +80,7 @@ Screenshots of Java Mission Control output for this application:
 
 ![picture](screenshots/JavaMissionControl2.png)
 
-#####jStack
+###jStack
 I use jstack to print Java stack traces of Java threads for a given Java process i.e. the application.
 
 Screenshots of jStack output for this application:
@@ -95,7 +95,7 @@ Screenshots of jStack output for this application:
 
 ![picture](screenshots/jstack5.png)
 
-#####jcmd
+###jcmd
 I use jcmd to send diagnostic command requests to the JVM, and diagnose JVM and Java Application.
 
 Screenshots of jcmd output for this application:
@@ -114,7 +114,7 @@ Screenshots of jcmd output for this application:
 
 ![picture](screenshots/jcmd7.png)
 
-#####jmap
+###jmap
 I use jmap to print shared object memory maps or heap memory details of the application.
 
 Screenshots of jmap output for this application:
@@ -129,14 +129,14 @@ Screenshots of jmap output for this application:
 
 ![picture](screenshots/jmap5.png)
 
-#####jps
+###jps
 I use jps to report information on JVM.
 
 Screenshots of jps output for this application:
 
 ![picture](screenshots/jps1.png)
 
-#####jstat
+###jstat
 I use jstat to display performance statistics for the JVM.
 
 Screenshots of jstat output for this application:
