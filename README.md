@@ -30,7 +30,111 @@ Junit and other dependencies will be automatically added using gradle and sbt.
 Following monitoring tools were used to test the application [Tools list](https://docs.oracle.com/javase/8/docs/technotes/guides/troubleshoot/tooldescr025.html) 
 
 #####JConsole
-We use JConsole to monitor performance and resource consumption of java applications that are running.
+I use JConsole to monitor performance and resource consumption of java applications that are running.
 
 Screenshots of JConsole output for this application:
+
 ![picture](screenshots/jconsole1.png)
+
+![picture](screenshots/jconsole2.png)
+
+![picture](screenshots/jconsole3.png)
+
+![picture](screenshots/jconsole4.png)
+
+![picture](screenshots/jconsole5.png)
+
+#####VisualVM
+I use VisualVM to profile the performance and resource consumption of the java application.
+
+Screenshots of VisualVM output for this application:
+
+![picture](screenshots/VisualVM1.png)
+
+![picture](screenshots/VisualVM2.png)
+
+![picture](screenshots/VisualVM3.png)
+
+![picture](screenshots/VisualVM4.png)
+
+#####VisualGC
+I use VisualGC to collect and graphically display garbage collection, class loader, and HotSpot compiler performance data.
+
+Screenshots of VisualGC output for this application:
+
+![picture](screenshots/VisualGC1.png)
+
+#####Java Mission Control
+I use Java Mission Control to collect and analyse detailed low level information about how the Java Virtual Machine (JVM) and the Java application are behaving.
+
+Screenshots of Java Mission Control output for this application:
+
+![picture](screenshots/JavaMissionControl1.png)
+
+![picture](screenshots/JavaMissionControl2.png)
+
+#####jStack
+I use jstack to print Java stack traces of Java threads for a given Java process i.e. the application.
+
+Screenshots of jStack output for this application:
+
+![picture](screenshots/jstack1.png)
+
+![picture](screenshots/jstack2.png)
+
+![picture](screenshots/jstack3.png)
+
+![picture](screenshots/jstack4.png)
+
+![picture](screenshots/jstack5.png)
+
+#####jcmd
+I use jcmd to send diagnostic command requests to the JVM, and diagnose JVM and Java Application.
+
+Screenshots of jcmd output for this application:
+
+![picture](screenshots/jcmd1.png)
+
+![picture](screenshots/jcmd2.png)
+
+![picture](screenshots/jcmd3.png)
+
+![picture](screenshots/jcmd4.png)
+
+![picture](screenshots/jcmd5.png)
+
+![picture](screenshots/jcmd6.png)
+
+![picture](screenshots/jcmd7.png)
+
+#####jmap
+I use jmap to print shared object memory maps or heap memory details of the application.
+
+Screenshots of jmap output for this application:
+
+![picture](screenshots/jmap1.png)
+
+![picture](screenshots/jmap2.png)
+
+![picture](screenshots/jmap3.png)
+
+![picture](screenshots/jmap4.png)
+
+![picture](screenshots/jmap5.png)
+
+#####jps
+I use jps to report information on JVM.
+
+Screenshots of jps output for this application:
+
+![picture](screenshots/jps1.png)
+
+#####jstat
+I use jstat to display performance statistics for the JVM.
+
+Screenshots of jstat output for this application:
+
+![picture](screenshots/jstat1.png)
+
+![picture](screenshots/jstat2.png)
+
