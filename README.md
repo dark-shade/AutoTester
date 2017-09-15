@@ -33,4 +33,4 @@ Following monitoring tools were used to test the application [Tools list](https:
 We use JConsole to monitor performance and resource consumption of java applications that are running.
 
 Screenshots of JConsole output for this application:
-![alt text](https://raw.bitbucket.org/sankul/sankul_rawat_hw1/master/screenshots/jconsole1.png)
+![alt text](https://raw.bitbucket.org/sankul/sankul_rawat_hw1/screenshots/jconsole1.png)
