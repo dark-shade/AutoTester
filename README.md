@@ -1,47 +1,36 @@
-Botnak
+Cloud Computing HW 1
 ======
 
-Botnak is a Java-based IRC chat client with bot capabilities and a focus on Twitch.tv streams.
+Link to the application repository which is being used:
+[Botnak repo](https://github.com/Gocnak/Botnak)
 
-Botnak 2 Episode 2 has a while to go before being 100% polished and released! You can track its progress in the [Episode 2 Milestone tab](https://github.com/Gocnak/Botnak/milestones).
+# How to run the project
+1. Copy the repo clone "https://sankul@bitbucket.org/sankul/sankul_rawat_hw1.git".
+2. Open intelliJ.
+3. In intellij, open project using version control -> git.
+4. Follow on screen instructions to clone and import project.
+5. Once the project is open, open terminal window inside intellij.
+6. To run using gradle, execute following command `gradle build` in terminal, this will build the project and run tests.
+7. To run the tests again execute `gradle clean test` in terminal again.
+8. To run using sbt, execute following command `sbt clean compile test` in terminal, this will compile and run the tests.    
 
-# Download
-The latest (pre-compiled) build can be found in the [releases tab](https://github.com/Gocnak/Botnak/releases).
-
-Keep in mind, this does not mean that Botnak is a final product quite yet. The fact Episode 2 is not completed yet implies there will be multiple changes, some of which may require additional research to have Botnak work completely. It is only recommended to download this if you wish to test Botnak as-is and report bugs.
-
-# Issues
-Speaking of reporting bugs, if you come across an issue, simply open a New Issue in the [issues tab](https://github.com/Gocnak/Botnak/issues/new)! I am using that tab to track progress of Episode 2, so an issue there would be the best place to put it. If you don't wish to publicly report the issue, go ahead and [PM me on twitch](http://www.twitch.tv/message/compose?to=gocnak)!
+# Location of tests
+1. The junit tests are present on path `sankul_Rawat_hw1/src/test/java/` .
+2. build.gradle and build.sbt files are present in the root directory of the project.
 
 # Requirements
-You will need the latest version of Java 8 to run Botnak. [Download it here.](http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html)
+You will need the latest version of Java 8 to run tests. [Download it here.](http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html)
 
-A full example list of commands and such can be found [here](http://bit.ly/1366RwM).
+You will also require intellij ide. [Download it here.](https://www.jetbrains.com/idea/download/#section=windows)
 
-# Credits
+Junit and other dependencies will be automatically added using gradle and sbt.
 
-[JSON Library](https://github.com/douglascrockford/JSON-java) for making API parsing much easier
+# Testing of application
 
-[JTattoo](http://www.jtattoo.net/) for making Botnak look pretty
+Following monitoring tools were used to test the application [Tools list](https://docs.oracle.com/javase/8/docs/technotes/guides/troubleshoot/tooldescr025.html) 
 
-[Scalr API](https://github.com/thebuzzmedia/imgscalr/) for Image Scaling
+#####JConsole
+We use JConsole to monitor performance and resource consumption of java applications that are running.
 
-[Pircbot API](http://www.jibble.org/pircbot.php) for giving me a good start to IRC bots
-
-Collaborators that help out with the project:
-
-Dr Kegel
-
-YaLTeR
-
-Kinamkrindar
-
-Fragmer
-
-TDuva  
-
-Jbzdarkid
-
-Chrisazy
-
-and anyone else reporting issues about this monstrosity of code!
+Screenshots of JConsole output for this application:
+![alt text](https://raw.bitbucket.org/sankul/sankul_rawat_hw1/master/screenshots/jconsole1.png)
