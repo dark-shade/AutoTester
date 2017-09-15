@@ -4,6 +4,21 @@ Cloud Computing HW 1
 Link to the application repository which is being used:
 [Botnak repo](https://github.com/Gocnak/Botnak)
 
+# Description
+I use junit tests to test the above mentioned application. 
+Then, I use gradle and sbt to build and run those tests. 
+The gradle and sbt automate the process of managing dependencies. 
+In junit tests I test the utilities that the application uses to perform it's core functionality. 
+The limitations of the implementation are that it only checks a very precise scope of the application. 
+As only unit testing can be performed using junit, it does not help in black box testing and only covers some scope in white box testing.    
+
+# Requirements
+You will need the latest version of Java 8 to run tests. [Download it here.](http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html)
+
+You will also require intellij ide. [Download it here.](https://www.jetbrains.com/idea/download/#section=windows)
+
+Junit and other dependencies will be automatically added using gradle and sbt.
+
 # How to run the project
 1. Copy the repo clone "https://sankul@bitbucket.org/sankul/sankul_rawat_hw1.git".
 2. Open intelliJ.
@@ -18,15 +33,7 @@ Link to the application repository which is being used:
 1. The junit tests are present on path `sankul_Rawat_hw1/src/test/java/` .
 2. build.gradle and build.sbt files are present in the root directory of the project.
 
-# Requirements
-You will need the latest version of Java 8 to run tests. [Download it here.](http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html)
-
-You will also require intellij ide. [Download it here.](https://www.jetbrains.com/idea/download/#section=windows)
-
-Junit and other dependencies will be automatically added using gradle and sbt.
-
 # Testing of application
-
 Following monitoring tools were used to test the application [Tools list](https://docs.oracle.com/javase/8/docs/technotes/guides/troubleshoot/tooldescr025.html) 
 
 #####JConsole
