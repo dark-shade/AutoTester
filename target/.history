@@ -1,0 +1,10 @@
+test
+plugins
+clean
+compile
+test
+exit
+clean
+compile
+test
+exit

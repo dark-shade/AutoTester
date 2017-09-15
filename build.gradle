@@ -39,7 +39,7 @@ buildscript {
         classpath 'org.junit.platform:junit-platform-gradle-plugin:1.0.0'
     }
 }
-
+apply plugin: 'idea'
 apply plugin: 'org.junit.platform.gradle.plugin'
 /*
 junitPlatform {
@@ -51,6 +51,15 @@ junitPlatform {
 }
 */
 dependencies {
+    // https://mvnrepository.com/artifact/org.json/json
+    compile group: 'org.json', name: 'json', version: '20170516'
+    // https://mvnrepository.com/artifact/com.jtattoo/JTattoo
+    compile group: 'com.jtattoo', name: 'JTattoo', version: '1.6.11'
+    // https://mvnrepository.com/artifact/pircbot/pircbot
+    compile group: 'pircbot', name: 'pircbot', version: '1.5.0'
+    // https://mvnrepository.com/artifact/org.imgscalr/imgscalr-lib
+    compile group: 'org.imgscalr', name: 'imgscalr-lib', version: '4.2'
+
     testCompile("org.junit.jupiter:junit-jupiter-api:5.0.0")
     testRuntime("org.junit.jupiter:junit-jupiter-engine:5.0.0")
     testCompile("junit:junit:4.12")
@@ -60,7 +69,7 @@ dependencies {
 sourceSets {
     test {
         java {
-            srcDirs = ["src/main/tests"]
+            srcDirs = ["src/test/java"]
         }
     }
 }
@@ -68,3 +77,5 @@ sourceSets {
 repositories {
     mavenCentral()
 }
+
+apply plugin: 'project-report'
